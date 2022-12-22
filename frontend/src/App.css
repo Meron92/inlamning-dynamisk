@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+  margin-top: 5%;
+}
+
+body {
+  background-color: rgb(56, 55, 55);
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-block-end: 0.8rem;
+}
+
+/*SignUp*/
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 100px;
+  line-height: 24px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.account-input {
+  border-radius: 6px;
+  font-size: 1.2rem;
+  line-height: 28px;
+  border: none;
+  margin-bottom: 6px;
+  padding-left: 8px;
+}
+
+.sign-up-forms {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.forms-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-page {
+  display: grid;
+  grid-template-columns: 4;
+}
+
+.admin-message {
+  cursor: pointer;
+}
+
+/*ImagesGallery css*/
+.stream-container,
+.media-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stream-container {
+  padding: 8%;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  width: 35%;
+}
+
+.media-container {
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.media-button {
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.gallery-container {
+  width: 120px;
+  height: 120px;
+}
+
+.logoutBtn {
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoutBtnAdmin {
+  align-items: center;
+  width: 30%;
+}
+
+.gallery-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.admin-page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.guest-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/*Global*/
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
